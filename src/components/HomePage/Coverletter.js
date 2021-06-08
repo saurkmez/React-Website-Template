@@ -8,7 +8,7 @@ function Coverletter() {
         <i style={{ color: "#ffb236" }}>Alper Urkmez</i>
       </h1>
       <h1 style={{ margin: "0", color: "white" }}>
-        I build things for the web.
+        I build creative end product.
       </h1>
       <p style={{ fontSize: "19px" }}>
         {" "}
