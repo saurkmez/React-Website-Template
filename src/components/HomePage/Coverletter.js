@@ -10,7 +10,7 @@ function Coverletter() {
       <h1 style={{ margin: "0", color: "white" }}>
         I build things for the web.
       </h1>
-      <p style={{ fontSize: "18px" }}>
+      <p style={{ fontSize: "19px" }}>
         {" "}
         Self developed, creative and passionate front-end developer, record collector and musician, located in Turkey. 
       </p>
