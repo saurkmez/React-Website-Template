@@ -16,24 +16,17 @@ function Aboutme() {
         </div>
 
         <p>
-          Hello! My name is Alper and I enjoy  things that live on the
-          internet. My interest in web development started back in 2020 when I
-          decided to try editing custom Tumblr themes — turns out hacking
-          together a custom reblog button taught me a lot about HTML & CSS!
+        Hello ! I am Alper, front-end developer and digital experiences creator. I have a continuous passionate for products created online, designing them with my point of view and adding my imagination feels like art to me. 
         </p>
         <p>
-          Fast-forward to today, and I've had the privilege of working at an
-          advertising agency, a start-up, a huge corporation. My main focus
-          these days is building accessible, inclusive products and digital
-          experiences at Upstatement for a variety of clients. Here are a few
-          technologies I've been working with recently:
+        My story started in 2020, when I discovered my interest in web site development and online products and turns out when you embrace an occupation this much it becomes your professional one. As for today, I completed various projects and looking forward to thrive continuosly.
         </p>
-        <p>Here are a few technologies I've been working with recently:</p>
+        <p>Please see technologies I've been working with currently:</p>
         <div className="skillscontainer">
           <ul>
             <li>JavaScript (ES6+)</li>
             <li>React</li>
-            <li>Vue</li>
+            <li>Vue.js</li>
             <li>MySQL</li>
             <li>Adobe Illustrator</li>
             <li>Adobe Photoshop</li>
