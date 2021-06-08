@@ -1,0 +1,22 @@
+[
+    {
+        "Icon":"fas fa-tachometer-alt fa-5x",
+        "Title":"Fast",
+        "Text":"Fast load times and lag free interaction, my highest priority."
+    },
+    {
+        "Icon":"fas fa-laptop-house fa-5x",
+        "Title":"Responsive ",
+        "Text":"My layouts will work on any device, big or small."
+    },
+    {
+        "Icon":"fas fa-lightbulb fa-5x",
+        "Title":"Intuitive",
+        "Text":"Strong preference for easy to use, intuitive UX/UI."
+    },
+    {
+        "Icon":"fas fa-rocket fa-5x",
+        "Title": "Dynamic",
+        "Text":"Websites don't have to be static, I love making pages come to life."
+    }
+]

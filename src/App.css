@@ -1,0 +1,1520 @@
+/*Home*/
+
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+.main {
+  text-align: center;
+  overflow: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.coverletter {
+  color: white;
+  width: auto;
+}
+.coverimage {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 100vh;
+  width: 100%;
+}
+
+.covercontainer {
+  position: relative;
+  left: -200px;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+
+  text-align: left;
+}
+
+.coverbox {
+  width: 800px;
+  height: auto;
+
+  font-size: 25px;
+}
+
+.button {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+  border: 2px solid white;
+  text-align: center;
+  transition: 0.5s;
+  position: relative;
+
+  left: -15px;
+  bottom: 0;
+}
+.buttoncontainer {
+  width: 400px;
+  height: 75px;
+}
+button:hover {
+  background-color: #5c5b5b;
+}
+button:hover > i {
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
+
+.button > i {
+  padding: 0px;
+  margin: 10px;
+}
+
+/*Aboutme*/
+
+.navbar {
+  position: fixed;
+  top: 0;
+
+  height: 75px;
+  width: 100%;
+  z-index: 10;
+  transition: 0.6s;
+  align-items: center;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.navbar > ul > li {
+  display: inline;
+  margin: 10px;
+  padding: 5px;
+  list-style: none;
+  cursor: pointer;
+  color: white;
+}
+
+.navbar > ul :hover {
+  color: #ffb236;
+  transition: 0.5s;
+}
+
+.navbar > ul > li > .active {
+  border-bottom: 1px solid orange;
+}
+
+.navbar > ul {
+  text-align: left;
+  width: auto;
+  height: auto;
+}
+.navbarlogo {
+  width: 30px;
+  height: 30px;
+  padding-left: 40px;
+}
+.resume {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+}
+.resume:hover {
+  background-color: #5c5b5b;
+}
+.fixedthings {
+  width: 90%;
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  left: 30px;
+}
+.superfixedthings {
+  display: flex;
+  width: 100%;
+  height: 20px;
+
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+}
+.mailme {
+  position: fixed;
+  bottom: 0px;
+  width: 100px;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.mailme > span {
+  height: 350px;
+  width: 50px;
+  text-align: center;
+  writing-mode: vertical-rl;
+  display: inline-block;
+  padding-top: 100px;
+}
+
+.mailme > span > a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+  font-weight: 10;
+}
+
+.mailme > span > a:hover {
+  text-decoration: none;
+  color: #ffb236;
+}
+
+.mailme > span::after {
+  border-left: 2px solid white;
+  content: "";
+  display: block;
+  height: 70px;
+  left: 35px;
+  position: absolute;
+  bottom: 0;
+  width: 1px;
+  z-index: 0;
+}
+.socialmedia {
+  position: fixed;
+  bottom: 0px;
+  width: 50px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.socialmedia > ul > li > span {
+  height: 120px;
+  width: 50px;
+}
+.socialmedia > ul > li > span > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+}
+.socialmedia > ul > li > span > a:hover {
+  color: #ffb236;
+  transform: scale(1.2);
+}
+.socialmedia > ul > li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.socialmedia > ul > li > span::after {
+  border-left: 2px solid white;
+  content: "";
+  display: block;
+  height: 70px;
+  left: 35px;
+  position: absolute;
+  bottom: 0;
+  width: 1px;
+  z-index: 0;
+}
+
+/*Aboutme*/
+.about {
+  min-height: 100vh;
+}
+
+.container {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.pictureAlper {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+}
+
+.muhtesemAlper {
+  width: 600px;
+  height: 500px;
+  text-align: left;
+  display: flex;
+  color: white;
+}
+
+.aboutmeheader {
+  width: 100%;
+  height: 50px;
+
+  text-align: left;
+}
+
+.skillscontainer {
+  width: 100%;
+  height: 100px;
+
+  text-align: left;
+}
+
+.skillscontainer > ul {
+  columns: 2;
+}
+
+/* Jobs */
+
+.jobs {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.jobscontainer {
+  width: 900px;
+  height: 600px;
+  display: flex;
+  justify-content: left;
+
+  color: white;
+}
+
+.jobsheader {
+  width: 900px;
+  height: 50px;
+
+  position: absolute;
+  text-align: left;
+}
+.jobscompany {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.companies {
+  width: 600px;
+  height: auto;
+
+  display: flex;
+}
+
+.companies > ul > li {
+  margin-top: 50px;
+  list-style: none;
+}
+.route {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  transition: 0.5s;
+}
+
+.routete > div {
+  border-left: 5px solid #ffb236;
+  padding-left: 5px;
+  transition: 0.3s;
+}
+
+.jobsdescription {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.jobsdescriptioninner {
+  width: 500px;
+  height: auto;
+  display: flex;
+}
+
+.frontend {
+  list-style: none;
+  text-align: left;
+  color: white;
+  width: 500px;
+  height: 500px;
+}
+
+.frontend > ul > li {
+  text-align: left;
+  margin-left: -40px;
+}
+/*Contact*/
+.contact {
+  height: 100vh;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactcontainer {
+  width: 600px;
+  height: auto;
+}
+.contactheader {
+  width: 600px;
+  height: 50px;
+}
+.contactmessage {
+  width: 600px;
+  height: 200px;
+}
+.buttonsubmit {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+  border: 2px solid white;
+  text-align: center;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.buttonsubmit > a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  color: white;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer > a {
+  color: #ffb236;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer > a > span:hover {
+  color: #ffb236;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer > a > span {
+  color: white;
+  cursor: pointer;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #434343;
+  border-radius: 10px;
+}
+
+/* Splash*/
+
+.splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  z-index: 200;
+  color: white;
+  text-align: center;
+  line-height: 90vh;
+  transition: 0.5s;
+}
+.splashover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  line-height: 90vh;
+  display: block;
+  z-index: -10;
+  opacity: 0;
+  transition: all 1s;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: scale(2);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.splashlogo {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    font-size: 90%;
+    height: 8%;
+    width: 100%;
+    z-index: 10;
+    transition: 0.6s;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10%;
+  }
+
+  .navbar > ul > li {
+    display: inline;
+    margin: 1px;
+    padding: 4px;
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    position: relative;
+  }
+
+  .navbar > ul :hover {
+    color: #ffb236;
+    transition: 0.5s;
+  }
+
+  .navbar > ul > li > .active {
+    border-bottom: 1px solid orange;
+  }
+
+  .navbar > ul {
+    text-align: left;
+    width: auto;
+    height: auto;
+  }
+  .navbarlogo {
+    width: 5px;
+    height: 10px;
+    padding-left: 10px;
+    display: none;
+  }
+
+  .resume:hover {
+    background-color: #5c5b5b;
+  }
+
+  .mailme {
+    bottom: 0px;
+    width: 100px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    display: none;
+  }
+
+  .socialmedia {
+    width: 100%;
+    height: 20%;
+    position: relative;
+  }
+  .fixedthings {
+    width: 80%;
+    height: 50px;
+    position: relative;
+    margin-right: 15%;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-between;
+  }
+  .superfixedthings {
+    width: 100%;
+    height: 10vh;
+
+    position: relative;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socialmedia > ul > li > span {
+    height: auto;
+    width: 50%;
+    display: inline;
+  }
+  .socialmedia > ul > li > span > a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffb236;
+    transition: 0.4s;
+  }
+  .socialmedia > ul > li > span > a:hover {
+    color: #ffb236;
+    margin-bottom: 2px;
+    transform: scale(1.5);
+    display: none;
+  }
+
+  .socialmedia > ul > li {
+    display: inline;
+    margin: 10px;
+  }
+
+  .socialmedia > ul > li > span::after {
+    border-left: 2px solid white;
+    content: "";
+    display: block;
+    height: 70px;
+    left: 35px;
+    position: absolute;
+    bottom: 0;
+    width: 1px;
+    z-index: 0;
+    display: none;
+  }
+
+  .coverletter {
+    color: white;
+    width: auto;
+    font-size: 10px;
+  }
+  .coverimage {
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    width: 100%;
+  }
+
+  .coverbox {
+    position: relative;
+    left: 200px;
+    width: 85%;
+
+    height: auto;
+
+    font-size: 25px;
+  }
+
+  .button {
+    background-color: transparent;
+    color: white;
+    font-size: 50%;
+    cursor: pointer;
+    width: auto;
+    padding: 5%;
+    height: 60%;
+    border: 2px solid white;
+    text-align: left;
+    transition: 0.5s;
+    position: relative;
+    bottom: 0;
+  }
+  .buttoncontainer {
+    width: 60%;
+    height: 75px;
+  }
+  button:hover {
+    background-color: #5c5b5b;
+  }
+  button:hover > i {
+    transform: rotate(90deg);
+    transition: 0.5s;
+  }
+
+  .button > i {
+    padding: 0px;
+    margin: 10px;
+    display: none;
+  }
+  .about {
+    min-height: 100vh;
+  }
+
+  .container {
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pictureAlper {
+    display: flex;
+    width: 1px;
+    height: 1px;
+    margin: 40px;
+    background-color: red;
+    display: none;
+  }
+
+  .muhtesemAlper {
+    width: 90%;
+    height: auto;
+    text-align: left;
+    display: flex;
+    color: white;
+
+    font-size: 10px;
+  }
+
+  .aboutmeheader {
+    width: 100%;
+    height: 5%;
+    text-align: left;
+  }
+
+  .skillscontainer {
+    width: 100%;
+    height: 10%;
+
+    text-align: left;
+  }
+
+  .skillscontainer > ul {
+    columns: 2;
+  }
+
+  /* Jobs */
+
+  .jobs {
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .jobscontainer {
+    width: 100%;
+    height: 70%;
+    display: flex;
+
+    color: white;
+    font-size: 10px;
+  }
+
+  .jobsheader {
+    width: 70%;
+
+    height: auto;
+    font-size: 70%;
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    text-align: left;
+  }
+  .jobscompany {
+    width: 70%;
+    margin-right: -8%;
+    height: auto;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .companies {
+    width: auto;
+    height: 80%;
+  }
+
+  .companies > ul > li {
+    margin-top: 50px;
+    list-style: none;
+  }
+  .route {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    transition: 0.5s;
+  }
+
+  .routete > div {
+    border-left: 5px solid #ffb236;
+    padding-left: 5px;
+    transition: 0.3s;
+  }
+
+  .jobsdescription {
+    width: 58%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: auto;
+  }
+
+  .jobsdescriptioninner {
+    width: 90%;
+    height: 80%;
+  }
+
+  .frontend {
+    list-style: none;
+    text-align: left;
+    color: white;
+    width: 500px;
+    height: 500px;
+  }
+
+  .frontend > ul > li {
+    text-align: left;
+    margin-left: -40px;
+  }
+
+  /*Contact*/
+
+  .contact {
+    height: 100vh;
+    width: 100%;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactcontainer {
+    width: 90%;
+    height: auto;
+
+    font-size: auto;
+  }
+  .contactheader {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+  }
+  .contactmessage {
+    width: 100%;
+    height: auto;
+  }
+  .buttonsubmit {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    width: 50%;
+    height: 10%;
+    border: 2px solid white;
+    text-align: center;
+    transition: 0.5s;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  .buttonsubmit > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer {
+    width: 100%;
+    height: 10vh;
+    color: white;
+    display: none;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  /* Splash*/
+
+  .splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 200;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    transition: 0.5s;
+  }
+  .splashover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    display: block;
+    z-index: -10;
+    opacity: 0;
+    transition: all 1s;
+  }
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: scale(2);
+    }
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+  }
+
+  .splashlogo {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  .coverletter {
+    color: white;
+    width: auto;
+  }
+  .coverimage {
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    width: 100%;
+  }
+
+  .covercontainer {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: flex-end;
+
+    text-align: left;
+  }
+
+  .coverbox {
+    width: 70%;
+    height: auto;
+
+    font-size: 25px;
+  }
+
+  .button {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    border: 2px solid white;
+    text-align: center;
+    transition: 0.5s;
+    position: relative;
+
+    left: -15px;
+    bottom: 0;
+  }
+  .buttoncontainer {
+    width: 400px;
+    height: 75px;
+  }
+  button:hover {
+    background-color: #5c5b5b;
+  }
+  button:hover > i {
+    transform: rotate(90deg);
+    transition: 0.5s;
+  }
+
+  .button > i {
+    padding: 0px;
+    margin: 10px;
+  }
+
+  /*Aboutme*/
+
+  .navbar {
+    position: fixed;
+    top: 0;
+
+    height: 75px;
+    width: 100%;
+    z-index: 10;
+    transition: 0.6s;
+    align-items: center;
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  .navbar > ul > li {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    cursor: pointer;
+    color: white;
+  }
+
+  .navbar > ul :hover {
+    color: #ffb236;
+    transition: 0.5s;
+  }
+
+  .navbar > ul > li > .active {
+    border-bottom: 1px solid orange;
+  }
+
+  .navbar > ul {
+    text-align: left;
+    width: auto;
+    height: auto;
+  }
+  .navbarlogo {
+    width: 30px;
+    height: 30px;
+    padding-left: 40px;
+  }
+  .resume {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+  }
+  .resume:hover {
+    background-color: #5c5b5b;
+  }
+  .fixedthings {
+    width: 90%;
+
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    left: 30px;
+  }
+  .superfixedthings {
+    display: flex;
+    width: 100%;
+    height: 100px;
+
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+  }
+  .mailme {
+    position: fixed;
+    bottom: 0px;
+    width: 100px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .mailme > span {
+    height: 350px;
+    width: 50px;
+    text-align: center;
+    writing-mode: vertical-rl;
+    display: inline-block;
+    padding-top: 100px;
+  }
+
+  .mailme > span > a {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    font-weight: 10;
+  }
+
+  .mailme > span > a:hover {
+    text-decoration: none;
+    color: #ffb236;
+  }
+
+  .mailme > span::after {
+    border-left: 2px solid white;
+    content: "";
+    display: block;
+    height: 70px;
+    left: 35px;
+    position: absolute;
+    bottom: 0;
+    width: 1px;
+    z-index: 0;
+  }
+  .socialmedia {
+    position: fixed;
+    bottom: 0px;
+    width: 50px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .socialmedia > ul > li > span {
+    height: 120px;
+    width: 50px;
+  }
+  .socialmedia > ul > li > span > a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+  }
+  .socialmedia > ul > li > span > a:hover {
+    color: #ffb236;
+    margin-bottom: 2px;
+    transform: scale(1.5);
+  }
+  .socialmedia > ul > li {
+    list-style: none;
+    margin-bottom: 15px;
+  }
+
+  .socialmedia > ul > li > span::after {
+    border-left: 2px solid white;
+    content: "";
+    display: block;
+    height: 70px;
+    left: 35px;
+    position: absolute;
+    bottom: 0;
+    width: 1px;
+    z-index: 0;
+  }
+
+  /*Aboutme*/
+  .about {
+    min-height: 100vh;
+  }
+
+  .container {
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pictureAlper {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+  }
+
+  .muhtesemAlper {
+    width: 40%;
+    height: auto;
+    text-align: left;
+    display: flex;
+    color: white;
+  }
+
+  .aboutmeheader {
+    width: 100%;
+    height: 50px;
+
+    text-align: left;
+  }
+
+  .skillscontainer {
+    width: 100%;
+    height: 100px;
+
+    text-align: left;
+  }
+
+  .skillscontainer > ul {
+    columns: 2;
+  }
+
+  /* Jobs */
+
+  .jobs {
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .jobscontainer {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    color: white;
+  }
+
+  .jobsheader {
+    width: 900px;
+    height: 50px;
+
+    position: absolute;
+    top: -10%;
+    text-align: left;
+  }
+  .jobscompany {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .companies {
+    width: 600px;
+    height: auto;
+
+    display: flex;
+  }
+
+  .companies > ul > li {
+    margin-top: 50px;
+    list-style: none;
+  }
+  .route {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    transition: 0.5s;
+  }
+
+  .routete > div {
+    border-left: 5px solid #ffb236;
+    padding-left: 5px;
+    transition: 0.3s;
+  }
+
+  .jobsdescription {
+    width: 70%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .jobsdescriptioninner {
+    width: auto;
+    height: 80%;
+    display: flex;
+    font-size: smaller;
+  }
+
+  .frontend {
+    list-style: none;
+    text-align: left;
+    color: white;
+    width: 500px;
+    height: 500px;
+  }
+
+  .frontend > ul > li {
+    text-align: left;
+    margin-left: -40px;
+  }
+  /*Contact*/
+  .contact {
+    height: 100vh;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactcontainer {
+    width: 600px;
+    height: auto;
+  }
+  .contactheader {
+    width: 600px;
+    height: 50px;
+  }
+  .contactmessage {
+    width: 600px;
+    height: 200px;
+  }
+  .buttonsubmit {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    border: 2px solid white;
+    text-align: center;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+  .buttonsubmit > a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer {
+    width: 100%;
+    height: 10vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #434343,
+      #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  /*scrollbar*/
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #000000;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #434343;
+    border-radius: 10px;
+  }
+
+  /* Splash*/
+
+  .splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 200;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    transition: 0.5s;
+  }
+  .splashover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    display: block;
+    z-index: -10;
+    opacity: 0;
+    transition: all 1s;
+  }
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: scale(2);
+    }
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+  }
+
+  .splashlogo {
+    width: 50px;
+    height: 50px;
+  }
+}

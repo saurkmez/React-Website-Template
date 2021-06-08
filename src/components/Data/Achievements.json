@@ -1,0 +1,39 @@
+[
+  {
+    "name": "CSS",
+    "level": "100%",
+    "color": "blue"
+  },
+
+  {
+    "name": "HTML",
+    "level": "90%",
+    "color": "purple"
+  },
+  {
+    "name": "JavaScript",
+    "level": "80%",
+    "color": "red"
+  },
+  {
+    "name": "React",
+    "level": "70%",
+    "color": "red"
+  },
+  {
+    "name": "jQuery",
+    "level": "60%",
+    "color": "red"
+  },
+  {
+    "name": "Illustrator",
+    "level": "50%",
+    "color": "red"
+  },
+  {
+    "name": "Photoshop",
+    "level": "40%",
+    "color": "red"
+  }
+
+]
