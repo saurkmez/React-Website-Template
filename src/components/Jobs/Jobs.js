@@ -21,7 +21,7 @@ function Jobs() {
       <HashRouter hashType="slash">
         <div className="jobscontainer" data-aos="fade-down">
           <div className="jobsheader">
-            <h1 style={{ margin: 0, color: "#ffb236" }}>Where I’ve Worked</h1>
+            <h1 style={{ margin: 0, color: "#ffb236" }}>What I Experienced</h1>
           </div>
 
           <div className="jobscompany">
