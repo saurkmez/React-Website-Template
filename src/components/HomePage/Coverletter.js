@@ -5,7 +5,7 @@ function Coverletter() {
     <div className="coverletter">
       <p style={{ fontSize: "15px" }}>Hi, my name is</p>
       <h1 style={{ margin: "0", color: "white" }}>
-        <i style={{ color: "#ffb236" }}>Alper Urkmez</i>
+        <i style={{ color: "#ffb236" }}>Sadan Alper Urkmez</i>
       </h1>
       <h1 style={{ margin: "0", color: "white" }}>
         I build things for the web.
