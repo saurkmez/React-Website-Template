@@ -22,10 +22,12 @@ function Aboutme() {
           like art to me.
         </p>
         <p>
-          My story started in 2020, when I discovered my interest in web site
-          development and online products and turns out when you embrace an
-          occupation this much it becomes your professional one. As for today, I
-          completed various projects and looking forward to thrive continuosly.
+          I graduated from Erciyes University with bachelors degree of
+          Mechatronics Engineering. Afterwards, my front-end development story
+          started in 2020, when I discovered my interest in web site development
+          and online products and turns out when you embrace an occupation this
+          much it becomes your professional one. As for today, I completed
+          various projects and looking forward to thrive continuosly.
         </p>
         <p>Please see technologies I've been working with currently:</p>
         <div className="skillscontainer">
