@@ -4,7 +4,11 @@ function Frontend() {
   return (
     <div className="frontend">
       <h2 style={{ color: "#ffb236" }}>Jr.Front-End Developer</h2>
-      <h3>Envest Enerji ve Su Teknolojileri</h3>
+      <h3>
+        Envest Enerji ve Su Teknolojileri
+        <br />
+        (February 2020 – Now)
+      </h3>
       <ul>
         <li>
           Creating solutions for current and potential mega pipeline projects

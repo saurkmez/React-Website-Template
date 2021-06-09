@@ -4,11 +4,14 @@ function Intern() {
   return (
     <div className="frontend">
       <h2 style={{ color: "#ffb236" }}>Engineering Intern</h2>
-      <h3>Envest Enerji ve Su Teknolojileri</h3>
+      <h3>
+        Envest Enerji ve Su Teknolojileri
+        <br />
+        (September 2019 – February 2019)
+      </h3>
       <ul>
         <li>Designing HMI Screens for Panels</li>
-        <li>Drawing Electrical Panels with AutoCad
-</li>
+        <li>Drawing Electrical Panels with AutoCad</li>
 
         <li>Designing Mechanical Parts with SolidWorks</li>
 

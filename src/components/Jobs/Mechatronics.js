@@ -3,8 +3,12 @@ import React from "react";
 function Mechatronics() {
   return (
     <div className="frontend">
-      <h2 style={{ color: "#ffb236" }}>Automation Engineer</h2>
-      <h3>Envest Enerji ve Su Teknolojileri</h3>
+      <h2 style={{ color: "#ffb236" }}>Mechatronics Engineer</h2>
+      <h3>
+        Envest Enerji ve Su Teknolojileri
+        <br />
+        (February 2019 – February 2020)
+      </h3>
       <ul>
         <li>
           <p style={{ color: "#ffb236", marginBottom: "0", listStyle: "none" }}>
