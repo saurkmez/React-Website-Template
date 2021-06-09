@@ -16,7 +16,7 @@ function Aboutme() {
         </div>
 
         <p>
-          Helloooooooo ! I am Alper, front-end developer and digital experiences
+          Hello! I am Alper, front-end developer and digital experiences
           creator. I have a continuous passionate for products created online,
           designing them with my point of view and adding my imagination feels
           like art to me.
