@@ -820,7 +820,7 @@ button:hover > i {
     font-size: 70%;
     position: absolute;
     left: 10%;
-    top: 8%;
+    top: 5%;
     text-align: left;
   }
   .jobscompany {
@@ -1211,7 +1211,7 @@ button:hover > i {
   }
   .socialmedia > ul > li > span > a:hover {
     color: #ffb236;
-    
+
     transform: scale(1.5);
   }
   .socialmedia > ul > li {
