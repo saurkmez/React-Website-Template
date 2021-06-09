@@ -16,10 +16,16 @@ function Aboutme() {
         </div>
 
         <p>
-        Hello ! I am Alper, front-end developer and digital experiences creator. I have a continuous passionate for products created online, designing them with my point of view and adding my imagination feels like art to me. 
+          Helloooooooo ! I am Alper, front-end developer and digital experiences
+          creator. I have a continuous passionate for products created online,
+          designing them with my point of view and adding my imagination feels
+          like art to me.
         </p>
         <p>
-        My story started in 2020, when I discovered my interest in web site development and online products and turns out when you embrace an occupation this much it becomes your professional one. As for today, I completed various projects and looking forward to thrive continuosly.
+          My story started in 2020, when I discovered my interest in web site
+          development and online products and turns out when you embrace an
+          occupation this much it becomes your professional one. As for today, I
+          completed various projects and looking forward to thrive continuosly.
         </p>
         <p>Please see technologies I've been working with currently:</p>
         <div className="skillscontainer">
