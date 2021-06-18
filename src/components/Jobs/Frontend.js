@@ -7,7 +7,7 @@ function Frontend() {
       <h3>
         Envest Enerji ve Su Teknolojileri
         <br />
-        (January 2021 – Now)
+        (January 2021 – Present)
       </h3>
       <ul>
         <li>
