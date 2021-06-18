@@ -7,7 +7,7 @@ function Mechatronics() {
       <h3>
         Envest Enerji ve Su Teknolojileri
         <br />
-        (February 2019 – February 2020)
+        (September 2019 – Now)
       </h3>
       <ul>
         <li>

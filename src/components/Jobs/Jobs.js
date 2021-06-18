@@ -51,20 +51,9 @@ function Jobs() {
                   >
                     {" "}
                     <div>
-                      <h4 style={{ color: "#ffb236" }}>Automation Engineer</h4>
-                      <p>Envest Enerji ve Su Teknolojileri</p>
-                    </div>
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/Intern"
-                    className="route"
-                    activeClassName="routete"
-                  >
-                    {" "}
-                    <div>
-                      <h4 style={{ color: "#ffb236" }}>Engineering Intern</h4>
+                      <h4 style={{ color: "#ffb236" }}>
+                        Mechatronics Engineer
+                      </h4>
                       <p>Envest Enerji ve Su Teknolojileri</p>
                     </div>
                   </NavLink>
@@ -77,7 +66,6 @@ function Jobs() {
               <Switch>
                 <Route path="/" exact component={Frontend} />
                 <Route path="/Automation" component={Mechatronics} />
-                <Route path="/Intern" component={Intern} />
               </Switch>
             </div>
           </div>
