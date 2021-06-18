@@ -45,7 +45,7 @@ function Socialmedia() {
           <li>
             <span>
               <a
-                href="https://files.fm/f/s44bwf7x6"
+                href="https://en.files.fm/u/n8xumedvz#/view/s62kwb3du"
                 className="far fa-file fa-2x"
                 title="Resume"
                 target="_blank"
