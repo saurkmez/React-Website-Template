@@ -16,4 +16,4 @@
 
 ## Demo
 
-alperurkmez.xyz
+https://react-website-template1.netlify.app/#/
